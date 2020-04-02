@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+  #map {
+    /*padding-top: 15em;*/
+    /*margin-top: 10em;*/
+  }
+}
+
+#map {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+#seasia {
+    position: relative;
+    
+}
+
+/*
+ * Tooltip
+
+.tooltip-inner{
+	position: absolute;
+	background: #fff;
+	border-style: solid;
+	border-width: medium;
+	border-color: #FF4136;
+	z-index: 9999;
+	width: 200px;
+	bottom: 50%;
+	margin-bottom: -1em;
+	padding: 20px;
+	border-radius: 20px;
+	font-size: inherit;
+	text-align: center;
+	color: #FF4136;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none;
+	font-family: inherit;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}*/
+.tooltip.top .tooltip-inner{
+ 
+max-width:310px;
+ 
+padding:3px 8px;
+ 
+color:#000;
+ 
+text-align:center;
+ 
+background-color:red;
+ 
+-webkit-border-radius:5px;
+ 
+-moz-border-radius:5px;
+ 
+border-radius:5px
+ 
+}
+
+
+.tombol-nyala {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border: none;
+      box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+      border-radius: 50%;
+      background-color: #14a39c;
+	  text-align: center;
+	  color: #fff;
+	  padding: 0px;
+      cursor: pointer;
+      -webkit-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      -moz-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      -ms-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+    }
+.tombol-nyala:hover 
+    { background-color: #14a39c;
+      -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+    }
+    @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
