@@ -11,11 +11,10 @@
 }
 
 #seasia {
-    position: relative;
-    
+    position: relative;    
 }
 
-#cellbio {
+#cellimg {
     position: relative;
 }
 
@@ -35,13 +34,96 @@
 }
 
 @media screen and (min-width: 320px) {
+ .cellbio-inner-1 {
+    top: 26%;
+    left: 11%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-1 {
+    top: 27%;
+    left: 15%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-1 {
+    top: 27%;
+    left: 25%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-2 {
+    top: 15%;
+    left: 69%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-2 {
+    top: 16%;
+    left: 70%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-2 {
+    top: 16%;
+    left: 64%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-3 {
+    top: 73%;
+    left: 14%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 18%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 27%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-3 {
+    top: 73%;
+    left: 14%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 18%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 27%;
+    }}
+
+.cellbio-inner-text {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-size: 0.8em;
+}
+
+@media screen and (min-width: 320px) {
   .cellbio-inner {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {
   .cellbio-inner {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 }
 
