@@ -1,0 +1,201 @@
+@media (min-width: 768px) {
+  #map {
+    /*padding-top: 15em;*/
+    /*margin-top: 10em;*/
+  }
+}
+
+#map {
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
+#seasia {
+    position: relative;    
+}
+
+#cellimg {
+    position: relative;
+}
+
+.absolutecenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}  
+
+.cellbio-inner {
+    position: absolute;
+    z-index: 992;
+    color: white;
+    text-align: center;
+    font-size:1.5vw;
+}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-1 {
+    top: 25%;
+    left: 10%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-1 {
+    top: 27%;
+    left: 12%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-1 {
+    top: 27%;
+    left: 25%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-2 {
+    top: 15%;
+    left: 68%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-2 {
+    top: 16%;
+    left: 70%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-2 {
+    top: 16%;
+    left: 64%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-3 {
+    top: 73%;
+    left: 13%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 15%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-3 {
+    top: 75%;
+    left: 27%;
+    }}
+
+@media screen and (min-width: 320px) {
+ .cellbio-inner-4 {
+    top: 78%;
+    left: 74%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+  .cellbio-inner-4 {
+    top: 78%;
+    left: 76%;
+    }}
+
+@media screen and (min-width: 1920px) {
+  .cellbio-inner-4 {
+    top: 79%;
+    left: 67%;
+    }}
+
+.cellbio-inner-text {
+    position: absolute;
+    z-index: 999;
+    color: white;
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 320px) {
+  .cellbio-inner {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .cellbio-inner {
+    font-size: 1.5vw;
+  }
+}
+
+/*
+ * Tooltip
+
+.tooltip-inner{
+	position: absolute;
+	background: #fff;
+	border-style: solid;
+	border-width: medium;
+	border-color: #FF4136;
+	z-index: 9999;
+	width: 200px;
+	bottom: 50%;
+	margin-bottom: -1em;
+	padding: 20px;
+	border-radius: 20px;
+	font-size: inherit;
+	text-align: center;
+	color: #FF4136;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none;
+	font-family: inherit;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}*/
+.tooltip.top .tooltip-inner{
+ 
+max-width:310px;
+ 
+padding:3px 8px;
+ 
+color:#000;
+ 
+text-align:center;
+ 
+background-color:red;
+ 
+-webkit-border-radius:5px;
+ 
+-moz-border-radius:5px;
+ 
+border-radius:5px
+ 
+}
+
+
+.tombol-nyala {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border: none;
+      box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+      border-radius: 50%;
+      background-color: #14a39c;
+	  text-align: center;
+	  color: #fff;
+	  padding: 0px;
+      cursor: pointer;
+      -webkit-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      -moz-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      -ms-animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+      animation: pulse 1.55s infinite cubic-bezier(0.66, 0, 0, 1);
+    }
+.tombol-nyala:hover 
+    { background-color: #14a39c;
+      -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+    }
+    @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+    @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
