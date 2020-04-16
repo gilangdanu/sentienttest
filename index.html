@@ -105,10 +105,33 @@
             <div class="row" style="width: 100vw;">
                 <div id="cellimg" class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-xl-3 offset-lg-3 text-center img-fluid">
                     <img class="img-fluid" src="assets/img/cell.svg">
-                    <div><span class="cellbio-inner-1 cellbio-inner-text" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet">HUMAN<br>PROBIOTICS</span></div>
-                    <div><span class="cellbio-inner-3 cellbio-inner-text" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet">STARTER<br>CULTURE</span></div>
-                    <div><span class="cellbio-inner-2 cellbio-inner-text" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet">AGRICULTURE</span></div>
-                    <div><span class="cellbio-inner-4 cellbio-inner-text" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet">ANIMAL<br>HEALTH</span></div>
+                    <div><a data-toggle="modal" title="Human Probiotics" data-target="#modal1"><span class="cellbio-inner-1 cellbio-inner-text" data-toggle="popover" placement="left" title="Human Probiotics" data-content="Lorem ipsum dolor sit amet text goes here">HUMAN<br>PROBIOTICS</span></a></div>
+                    
+                    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Human Probiotics</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Lorem Ipsum Dolor Sit Amet Text Goes Here
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">Back</button>
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                    <div data-toggle="modal" title="Starter Culture" data-target="#modal1"><span class="cellbio-inner-3 cellbio-inner-text" data-toggle="popover" placement="left" title="Starter Culture" data-content="Lorem ipsum dolor sit amet text goes here">STARTER<br>CULTURE</span></div>
+                    
+                    
+                    <div data-toggle="modal" title="Agriculture" data-target="#modal1"><span class="cellbio-inner-2 cellbio-inner-text" data-toggle="popover" placement="auto" title="Agriculture" data-content="Lorem ipsum dolor sit amet text goes here">AGRICULTURE</span></div>
+                    
+                    <div data-toggle="modal" title="Animal Health" data-target="#modal1"><span class="cellbio-inner-4 cellbio-inner-text" data-toggle="popover" placement="auto" title="Agriculture" data-content="Lorem ipsum dolor sit amet text goes here">ANIMAL<br>HEALTH</span></div>
                     <div class="absolutecenter"><span class="cellbio-inner text-center" style="top:50%"><strong>MICROBIOLOGY</strong></span></div>
                     </div>
             </div>
@@ -148,9 +171,9 @@ and supportive government towards innovations.<br><br><br>Our current market cov
                     </div>
                 </div>
                 <div id="seasia" class="col-sm-6 col-md-6 col-lg-7 col-xl-8"><img class="img-fluid" src="assets/img/southeastasia1.svg">
-                    <button class="tombol-nyala" data-toggle="tooltip" data-placement="top" title="Singapore" data-img="http://placehold.it/400x200" style="top: 65%;left: 24%;
+                    <button class="tombol-nyala" data-toggle="popover" data-placement="top" title="Singapore" data-img="http://placehold.it/400x200" style="top: 65%;left: 24%;
                     z-index: 99;">&nbsp;<p style="text-align:center; color: black">Singapore</p></button>
-            <button class="tombol-nyala" data-toggle="tooltip" data-img="http://placehold.it/400x200" data-placement="top" title="Jakarta" style="top: 86%;left: 33%;
+            <button class="tombol-nyala" data-toggle="popover" data-img="http://placehold.it/400x200" data-placement="top" title="Jakarta" style="top: 86%;left: 33%;
                     z-index: 99;">&nbsp;<p style="text-align:center; color: black">Indonesia</p></button>
                 <button class="tombol-nyala" data-toggle="tooltip" data-img="http://placehold.it/400x200" data-placement="top" title="Thailand" style="top: 56%;left: 20%;
                     z-index: 99;">&nbsp;<p style="text-align:center; color: black; padding-right:-2px">Thailand</p></button>
@@ -230,12 +253,12 @@ $.widget.bridge('uitooltip', $.ui.tooltip);
           //trigger: 'focus',
 		  trigger: 'hover',
           html: true,
-          content: function () {
+         content: function () {
 				return '<img class="img-fluid" src="'+$(this).data('img') + '" />';
           },
           title: 'Toolbox'
     }) 
-});</script>
+})</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>
