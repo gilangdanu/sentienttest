@@ -35,8 +35,8 @@
 
 @media screen and (min-width: 320px) {
  .cellbio-inner-1 {
-    top: 25%;
-    left: 10%;
+    top: 27%;
+    left: 12%;
     }
 }
 
@@ -55,7 +55,7 @@
 @media screen and (min-width: 320px) {
  .cellbio-inner-2 {
     top: 15%;
-    left: 68%;
+    left: 70%;
     }
 }
 
@@ -73,8 +73,8 @@
 
 @media screen and (min-width: 320px) {
  .cellbio-inner-3 {
-    top: 73%;
-    left: 13%;
+    top: 75%;
+    left: 14%;
     }
 }
 
@@ -93,7 +93,7 @@
 @media screen and (min-width: 320px) {
  .cellbio-inner-4 {
     top: 78%;
-    left: 74%;
+    left: 75%;
     }
 }
 
@@ -114,6 +114,12 @@
     z-index: 999;
     color: white;
     font-size: 0.9em;
+}
+
+@media screen and (max-width: 720px) {
+.cellbio-inner-text {
+    font-size: 0.7em;
+}
 }
 
 @media screen and (min-width: 320px) {
